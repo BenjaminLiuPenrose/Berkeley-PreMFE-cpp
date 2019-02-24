@@ -1,0 +1,21 @@
+===================== Q1 ==========================
+
+Please give me a positive integer:21
+ 21
+Please give me another positive integer:1109
+ 1109
+The answer is 1 and it took 60 steps to calculate
+
+===================== Q2 ==========================
+Please give me a positive integer:58623119
+ 58623119
+Please give me another positive integer:3817853
+ 3817853
+The answer is 1 and it took 64 steps to calculate
+
+===================== Q3 ==========================
+Please give me a positive integer:15411
+ 15411
+Please give me another positive integer:786
+ 786
+The answer is 3 and it took 33 steps to calculate

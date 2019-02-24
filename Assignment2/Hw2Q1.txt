@@ -1,0 +1,72 @@
+Under precision 1e-06 and starting point -12 by Newton's method:
+The estimated root r is -10, value of f(r) is 3.77226e-07, number of iters is 6
+Under precision 1e-06 and starting point -12 by Secant method:
+The estimated root r is -10, value of f(r) is 1.01252e-11, number of iters is 9
+Under precision 1e-06 and starting point -12 by Bisection method:
+The estimated root r is 9, value of f(r) is -6.37025e-07, number of iters is 28
+Under precision 1e-06 and starting point 3.2 by Newton's method:
+The estimated root r is 9, value of f(r) is 0, number of iters is 7
+Under precision 1e-06 and starting point 3.2 by Secant method:
+The estimated root r is 9, value of f(r) is -1.86806e-07, number of iters is 7
+Under precision 1e-06 and starting point 3.2 by Bisection method:
+The estimated root r is 9, value of f(r) is -1.59256e-07, number of iters is 30
+Under precision 1e-06 and starting point -9.5 by Newton's method:
+The estimated root r is -10, value of f(r) is 0, number of iters is 30
+Under precision 1e-06 and starting point -9.5 by Secant method:
+The estimated root r is -9, value of f(r) is 7.95236e-10, number of iters is 7
+Under precision 1e-06 and starting point -9.5 by Bisection method:
+The estimated root r is -10, value of f(r) is -7.07805e-07, number of iters is 28
+Under precision 1e-06 and starting point 8 by Newton's method:
+The estimated root r is 9, value of f(r) is 1.48841e-09, number of iters is 5
+Under precision 1e-06 and starting point 8 by Secant method:
+The estimated root r is 9, value of f(r) is 1.21503e-11, number of iters is 7
+Under precision 1e-06 and starting point 8 by Bisection method:
+The estimated root r is 9, value of f(r) is -6.37025e-07, number of iters is 28
+Under precision 1e-08 and starting point -12 by Newton's method:
+The estimated root r is -10, value of f(r) is 0, number of iters is 7
+Under precision 1e-08 and starting point -12 by Secant method:
+The estimated root r is -10, value of f(r) is 1.01252e-11, number of iters is 9
+Under precision 1e-08 and starting point -12 by Bisection method:
+The estimated root r is 9, value of f(r) is 4.97676e-09, number of iters is 35
+Under precision 1e-08 and starting point 3.2 by Newton's method:
+The estimated root r is 9, value of f(r) is 0, number of iters is 7
+Under precision 1e-08 and starting point 3.2 by Secant method:
+The estimated root r is 9, value of f(r) is -6.07514e-13, number of iters is 8
+Under precision 1e-08 and starting point 3.2 by Bisection method:
+The estimated root r is 9, value of f(r) is -2.48838e-09, number of iters is 36
+Under precision 1e-08 and starting point -9.5 by Newton's method:
+The estimated root r is -10, value of f(r) is 0, number of iters is 30
+Under precision 1e-08 and starting point -9.5 by Secant method:
+The estimated root r is -9, value of f(r) is 7.95236e-10, number of iters is 7
+Under precision 1e-08 and starting point -9.5 by Bisection method:
+The estimated root r is -10, value of f(r) is 5.52973e-09, number of iters is 35
+Under precision 1e-08 and starting point 8 by Newton's method:
+The estimated root r is 9, value of f(r) is 1.48841e-09, number of iters is 5
+Under precision 1e-08 and starting point 8 by Secant method:
+The estimated root r is 9, value of f(r) is 1.21503e-11, number of iters is 7
+Under precision 1e-08 and starting point 8 by Bisection method:
+The estimated root r is 9, value of f(r) is -9.95351e-09, number of iters is 34
+Under precision 1e-10 and starting point -12 by Newton's method:
+The estimated root r is -10, value of f(r) is 0, number of iters is 7
+Under precision 1e-10 and starting point -12 by Secant method:
+The estimated root r is -10, value of f(r) is 1.01252e-11, number of iters is 9
+Under precision 1e-10 and starting point -12 by Bisection method:
+The estimated root r is 9, value of f(r) is -3.88809e-11, number of iters is 42
+Under precision 1e-10 and starting point 3.2 by Newton's method:
+The estimated root r is 9, value of f(r) is 0, number of iters is 7
+Under precision 1e-10 and starting point 3.2 by Secant method:
+The estimated root r is 9, value of f(r) is -6.07514e-13, number of iters is 8
+Under precision 1e-10 and starting point 3.2 by Bisection method:
+The estimated root r is 9, value of f(r) is -3.88809e-11, number of iters is 42
+Under precision 1e-10 and starting point -9.5 by Newton's method:
+The estimated root r is -10, value of f(r) is 0, number of iters is 30
+Under precision 1e-10 and starting point -9.5 by Secant method:
+The estimated root r is -9, value of f(r) is 0, number of iters is 8
+Under precision 1e-10 and starting point -9.5 by Bisection method:
+The estimated root r is -10, value of f(r) is 8.6402e-11, number of iters is 41
+Under precision 1e-10 and starting point 8 by Newton's method:
+The estimated root r is 9, value of f(r) is 0, number of iters is 6
+Under precision 1e-10 and starting point 8 by Secant method:
+The estimated root r is 9, value of f(r) is 1.21503e-11, number of iters is 7
+Under precision 1e-10 and starting point 8 by Bisection method:
+The estimated root r is 9, value of f(r) is 7.77618e-11, number of iters is 41

@@ -1,0 +1,19 @@
+=================================Q2===========================================
+For strategy buy and hold:
+the expected return is 8.00413
+the volatility is 16.1232
+the sharpe ratio is 0.494885
+
+For strategy buy write:
+the expected return is 5.54205
+the volatility is 7.523
+the sharpe ratio is 0.733358
+
+For strategy put write:
+the expected return is 13.7145
+the volatility is 22.922
+the sharpe ratio is 0.59722
+
+
+
+Question (ix)Since the buy-write strategy has the highest sharpe ratio, buy-write strategy is preferrable for risk adverse investors. Since put write strategy has the highest expected return, put-write strategy is preferrable for risk-seeking investors.
