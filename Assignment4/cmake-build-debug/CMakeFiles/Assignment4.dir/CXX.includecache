@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Benjamin/CLionProjects/Assignment4/Assignment4Q1.cpp
+iostream
+-
+fstream
+-
+bond.h
+C:/Users/Benjamin/CLionProjects/Assignment4/bond.h
+
+C:/Users/Benjamin/CLionProjects/Assignment4/bond.h
+math.h
+-
+iostream
+-
+random
+-
+chrono
+-
+

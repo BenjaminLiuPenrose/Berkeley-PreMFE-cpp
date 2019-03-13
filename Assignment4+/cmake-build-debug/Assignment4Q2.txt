@@ -1,0 +1,6 @@
+option,type,strike,spot,bs_value,value,binomialValue
+1,EC,90,100,24.8289,24.8289,24.8202
+2,AC,95,100,-1,7.83288,7.8322
+3,AP,105,100,-1,7.84259,7.84259
+4,EP,95,100,0.889781,0.889781,0.889948
+Rmk: -1 stands for not applicable

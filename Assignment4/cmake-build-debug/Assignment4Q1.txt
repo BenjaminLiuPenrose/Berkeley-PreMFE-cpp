@@ -1,0 +1,11 @@
+bond,principal,coupon,timeToMaturity,price,ytm,modifiedDuration
+1,1000,60,10,1077.22,0.0590532,7.02358
+2,100,7,5.15,114.816,0.0885392,3.98119
+3,100,10,7.65,114.537,0.0988329,4.8452
+
+
+simulated price after 100 simulations: 95.7737
+simulated price after 1000 simulations: 97.4116
+simulated price after 10000 simulations: 93.963
+simulated price after 100000 simulations: 94.5052
+simulated price after 1000000 simulations: 98.5085

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Benjamin/CLionProjects/Assignment4+/Assignment4Q2.cpp
+iostream
+-
+fstream
+-
+option.h
+C:/Users/Benjamin/CLionProjects/Assignment4+/option.h
+
+C:/Users/Benjamin/CLionProjects/Assignment4+/option.h
+math.h
+-
+vector
+-
+
