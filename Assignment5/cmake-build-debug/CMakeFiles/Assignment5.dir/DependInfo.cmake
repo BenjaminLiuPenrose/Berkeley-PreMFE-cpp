@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/G_project/Berkeley-PreMFE-cpp/Assignment5/main.cpp" "C:/G_project/Berkeley-PreMFE-cpp/Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/main.cpp.obj"
+  "C:/G_project/Berkeley-PreMFE-cpp/Assignment5/Assignment5Q1.cpp" "C:/G_project/Berkeley-PreMFE-cpp/Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

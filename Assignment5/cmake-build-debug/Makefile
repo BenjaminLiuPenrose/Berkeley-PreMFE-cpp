@@ -122,32 +122,32 @@ Assignment5/fast:
 	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make CMakeFiles/Assignment5.dir/build
 .PHONY : Assignment5/fast
 
-main.obj: main.cpp.obj
+Assignment5Q1.obj: Assignment5Q1.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Assignment5Q1.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make CMakeFiles/Assignment5.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Assignment5Q1.cpp.obj:
+	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.obj
+.PHONY : Assignment5Q1.cpp.obj
 
-main.i: main.cpp.i
+Assignment5Q1.i: Assignment5Q1.cpp.i
 
-.PHONY : main.i
+.PHONY : Assignment5Q1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make CMakeFiles/Assignment5.dir/main.cpp.i
-.PHONY : main.cpp.i
+Assignment5Q1.cpp.i:
+	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.i
+.PHONY : Assignment5Q1.cpp.i
 
-main.s: main.cpp.s
+Assignment5Q1.s: Assignment5Q1.cpp.s
 
-.PHONY : main.s
+.PHONY : Assignment5Q1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make CMakeFiles/Assignment5.dir/main.cpp.s
-.PHONY : main.cpp.s
+Assignment5Q1.cpp.s:
+	$(MAKE) -f CMakeFiles\Assignment5.dir\build.make CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.s
+.PHONY : Assignment5Q1.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Assignment5
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Assignment5Q1.obj
+	@echo ... Assignment5Q1.i
+	@echo ... Assignment5Q1.s
 .PHONY : help
 
 

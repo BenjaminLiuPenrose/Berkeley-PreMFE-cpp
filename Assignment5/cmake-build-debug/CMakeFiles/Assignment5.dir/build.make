@@ -56,27 +56,27 @@ include CMakeFiles/Assignment5.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Assignment5.dir/flags.make
 
-CMakeFiles/Assignment5.dir/main.cpp.obj: CMakeFiles/Assignment5.dir/flags.make
-CMakeFiles/Assignment5.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\G_project\Berkeley-PreMFE-cpp\Assignment5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment5.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Assignment5.dir\main.cpp.obj -c C:\G_project\Berkeley-PreMFE-cpp\Assignment5\main.cpp
+CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.obj: CMakeFiles/Assignment5.dir/flags.make
+CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.obj: ../Assignment5Q1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\G_project\Berkeley-PreMFE-cpp\Assignment5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Assignment5.dir\Assignment5Q1.cpp.obj -c C:\G_project\Berkeley-PreMFE-cpp\Assignment5\Assignment5Q1.cpp
 
-CMakeFiles/Assignment5.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment5.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\G_project\Berkeley-PreMFE-cpp\Assignment5\main.cpp > CMakeFiles\Assignment5.dir\main.cpp.i
+CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\G_project\Berkeley-PreMFE-cpp\Assignment5\Assignment5Q1.cpp > CMakeFiles\Assignment5.dir\Assignment5Q1.cpp.i
 
-CMakeFiles/Assignment5.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment5.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\G_project\Berkeley-PreMFE-cpp\Assignment5\main.cpp -o CMakeFiles\Assignment5.dir\main.cpp.s
+CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\G_project\Berkeley-PreMFE-cpp\Assignment5\Assignment5Q1.cpp -o CMakeFiles\Assignment5.dir\Assignment5Q1.cpp.s
 
 # Object files for target Assignment5
 Assignment5_OBJECTS = \
-"CMakeFiles/Assignment5.dir/main.cpp.obj"
+"CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.obj"
 
 # External object files for target Assignment5
 Assignment5_EXTERNAL_OBJECTS =
 
-Assignment5.exe: CMakeFiles/Assignment5.dir/main.cpp.obj
+Assignment5.exe: CMakeFiles/Assignment5.dir/Assignment5Q1.cpp.obj
 Assignment5.exe: CMakeFiles/Assignment5.dir/build.make
 Assignment5.exe: CMakeFiles/Assignment5.dir/linklibs.rsp
 Assignment5.exe: CMakeFiles/Assignment5.dir/objects1.rsp

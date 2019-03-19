@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/G_project/Berkeley-PreMFE-cpp/Assignment5/Assignment5Q1.cpp
+iostream
+-
+fstream
+-
+utils.h
+C:/G_project/Berkeley-PreMFE-cpp/Assignment5/utils.h
+
+C:/G_project/Berkeley-PreMFE-cpp/Assignment5/utils.h
+vector
+-
+math.h
+-
+random
+-
+chrono
+-
+

@@ -3,6 +3,9 @@
 //
 #include <vector>
 #include <math.h>
+#include <random>
+#include <chrono>
+
 using namespace std;
 
 #ifndef ASSIGNMENT5_AGENTS_H
@@ -42,7 +45,7 @@ public:
     virtual void tick(double net, Dealer* dealer) = 0;
     double getNAV(double price)
     {
-        return this.cash + price * this->shares;
+        return this->cash + price * this->shares;
     }
     virtual void reset()
     {
@@ -53,6 +56,16 @@ public:
     {
         this->cash += cash;
         this->shares += shares;
+    }
+
+    double normalRandom(double mu = .0, double sigma = 1.)
+    {
+        // random_device rd{};
+        // mt19937 gen{rd()};
+        unsigned seed = chrono::system_clock::now().time_since_epoch().count();
+        default_random_engine gen(seed);
+        normal_distribution<> norm{mu, sigma};
+        return norm(gen);
     }
 };
 
@@ -162,7 +175,7 @@ public:
                     double u = uniformRandom();
                     if( u < agents[ag]->tradeProb)
                     {
-                        agents[ag]->tick(this.net, this);
+                        agents[ag]->tick(this->net, this);
                     }
                 }
                 net = net + periodNet;
@@ -191,9 +204,14 @@ public:
     }
 
 private:
-    double uniformRandom()
+    double uniformRandom(double a = .0, double b = 1.)
     {
-        return .0;
+        // random_device rd{};
+        // mt19937 gen{rd()};
+        unsigned seed = chrono::system_clock::now().time_since_epoch().count();
+        default_random_engine gen(seed);
+        uniform_real_distribution<> unif{a, b};
+        return unif(gen);
     }
 };
 
@@ -271,7 +289,7 @@ vector< vector<double> > transpose(vector< vector<double> > matrix)
     return results;
 }
 
-double percentile(const vector<double>& vect, int pct)
+double percentile(const vector<double>& vect, double pct)
 {
     int offset = pct * vect.size() / 100;
     return vect[offset];

@@ -36,25 +36,25 @@ int main() {
 
     // Tangency Portfolio
     // Create a market object
-    corrEquityBond = -.1;
-    equityReturn = 0.09;
-    equityVol = 0.20;
-    bondReturn = 0.03;
-    bondVol = 0.02;
-    riskFreeRate = 0.02;
-    numSimulations = 100000;
-    Market market2 = Market(corrEquityBond, equityReturn, equityVol, bondReturn, bondVol, riskFreeRate, numSimulations);
-    Portfolio portfolio_maxVol = market.analyzePortfolio(1., .0);
-    cout << "Tangency Portfolio" << endl;
-    cout << "percentEquity" << "," << "percentBond" << "," << "percentCash" << "," << "ret" << "," << "vol" << endl;
-    double maxSimulatedVol = portfolio_maxVol.vol;
-    double increVol = 0.;
-    while( increVol <= maxSimulatedVol)
-    {
-        Portfolio portfolio = market2.findPortfolioForVol(increVol);
-        cout << portfolio.percentEquity << "," << portfolio.percentBond << "," << portfolio.percentCash << "," << portfolio.ret << "," << portfolio.vol << endl;
-        increVol += 0.0025;
-    }
+//    corrEquityBond = -.1;
+//    equityReturn = 0.09;
+//    equityVol = 0.20;
+//    bondReturn = 0.03;
+//    bondVol = 0.02;
+//    riskFreeRate = 0.02;
+//    numSimulations = 100000;
+//    Market market2 = Market(corrEquityBond, equityReturn, equityVol, bondReturn, bondVol, riskFreeRate, numSimulations);
+//    Portfolio portfolio_maxVol = market.analyzePortfolio(1., .0);
+//    cout << "Tangency Portfolio" << endl;
+//    cout << "percentEquity" << "," << "percentBond" << "," << "percentCash" << "," << "ret" << "," << "vol" << endl;
+//    double maxSimulatedVol = portfolio_maxVol.vol;
+//    double increVol = 0.;
+//    while( increVol <= maxSimulatedVol)
+//    {
+//        Portfolio portfolio = market2.findPortfolioForVol(increVol);
+//        cout << portfolio.percentEquity << "," << portfolio.percentBond << "," << portfolio.percentCash << "," << portfolio.ret << "," << portfolio.vol << endl;
+//        increVol += 0.0025;
+//    }
 
     return 0;
 }

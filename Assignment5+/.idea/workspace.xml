@@ -12,17 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b39a91a6-9f13-4985-82ea-7015b07613cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Assignment5+.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment5/utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/stat_ps9-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/stat_ps9-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents.h" beforeDir="false" afterPath="$PROJECT_DIR$/agents.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/Assignment5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/Assignment5.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/CMakeFiles/Assignment5.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/Assignment5Q1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stat_ps9.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../stat_ps9.ipynb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +37,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment5Q2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1638">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="-1689">
+              <caret line="9" column="63" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="63" />
               <folding>
                 <element signature="e#26#45#0" expanded="true" />
               </folding>
@@ -58,11 +62,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/agents.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="234" column="33" selection-start-line="234" selection-start-column="27" selection-end-line="234" selection-end-column="33" />
+            <state relative-caret-position="306">
+              <caret line="291" column="39" lean-forward="true" selection-start-line="291" selection-start-column="39" selection-end-line="291" selection-end-column="39" />
               <folding>
                 <element signature="e#43#60#0" expanded="true" />
-                <element signature="e#1962#3195#1" />
               </folding>
             </state>
           </provider>
@@ -73,6 +76,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>random</find>
+      <find>this.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,7 +115,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,34 +153,36 @@
       <option name="presentableId" value="Default" />
       <updated>1552312091029</updated>
       <workItem from="1552312092774" duration="12822000" />
+      <workItem from="1552634219212" duration="2747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12822000" />
+    <option name="totallyTimeSpent" value="15569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1233" height="735" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24978687" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25404945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.27031508" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,8 +205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment5Q2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1638">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="-1689">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="63" />
           <folding>
             <element signature="e#26#45#0" expanded="true" />
           </folding>
@@ -209,11 +215,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agents.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="234" column="33" selection-start-line="234" selection-start-column="27" selection-end-line="234" selection-end-column="33" />
+        <state relative-caret-position="306">
+          <caret line="291" column="39" lean-forward="true" selection-start-line="291" selection-start-column="39" selection-end-line="291" selection-end-column="39" />
           <folding>
             <element signature="e#43#60#0" expanded="true" />
-            <element signature="e#1962#3195#1" />
           </folding>
         </state>
       </provider>
