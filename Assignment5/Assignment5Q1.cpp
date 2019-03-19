@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include "utils.h"
 
 using namespace std;
@@ -16,13 +17,19 @@ int main() {
     Market market = Market(corrEquityBond, equityReturn, equityVol, bondReturn, bondVol, riskFreeRate, numSimulations);
 
     // loop percentEquity, percentBond
+    string outputFileName = "marketportfolio.csv";
+    ofstream outFile;
+    outFile.open(outputFileName);
+    outFile.close();
+
     double percentEquity = 0.;
     double percentBond = 1. - percentEquity;
-
+    cout << "Efficient Frontier" << endl;
+    cout << "index" << "," << "percentEquity" << "," << "percentBond" << "," << "ret" << "," << "vol" << endl;
     for(int i = 0; i < 100; i++)
     {
         Portfolio portfolio = market.analyzePortfolio(percentEquity, percentBond);
-        cout << portfolio.percentEquity << portfolio.percentBond << portfolio.ret << portfolio.vol;
+        cout << i << "," << portfolio.percentEquity << "," << portfolio.percentBond << "," << portfolio.ret << "," << portfolio.vol << endl;
         percentEquity += 0.01;
         percentBond = 1. - percentEquity;
     }
@@ -38,12 +45,14 @@ int main() {
     numSimulations = 100000;
     Market market2 = Market(corrEquityBond, equityReturn, equityVol, bondReturn, bondVol, riskFreeRate, numSimulations);
     Portfolio portfolio_maxVol = market.analyzePortfolio(1., .0);
+    cout << "Tangency Portfolio" << endl;
+    cout << "percentEquity" << "," << "percentBond" << "," << "percentCash" << "," << "ret" << "," << "vol" << endl;
     double maxSimulatedVol = portfolio_maxVol.vol;
     double increVol = 0.;
     while( increVol <= maxSimulatedVol)
     {
         Portfolio portfolio = market2.findPortfolioForVol(increVol);
-        cout << portfolio.percentEquity << portfolio.percentBond << portfolio.percentCash << portfolio.ret << portfolio.vol;
+        cout << portfolio.percentEquity << "," << portfolio.percentBond << "," << portfolio.percentCash << "," << portfolio.ret << "," << portfolio.vol << endl;
         increVol += 0.0025;
     }
 
